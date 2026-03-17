@@ -16,7 +16,7 @@ A lightweight, zero-dependency vanilla JavaScript library for visualizing intera
 
 1. Clone or download this repository.
 2. Open `index.html` in your web browser.
-3. Edit `data/data.js` to build your own story tree.
+3. Edit `data.js` to build your own story tree.
 
 ## Configuration & Usage
 
