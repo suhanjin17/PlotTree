@@ -1,0 +1,17 @@
+/* Universal box sizing */
+* { box-sizing: border-box; }
+
+/* Main body styling for dark theme */
+body {
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+    background-color: #1e1e24;
+    color: #e5e5e5;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Main title styling */
+h1 {
+    text-align: center;
+    color: #fca311;
+}

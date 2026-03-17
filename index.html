@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Plot Tree</title>
+
+	<link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" href="modal/modal.css">
+	<link rel="stylesheet" href="tree/tree.css">
+</head>
+<body>
+    <h1>Plot Tree</h1>
+
+	<div class="tree" id="tree-container"></div>
+
+    <div id="modal-overlay">
+        <div id="modal-content">
+            <span id="modal-close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title">Title</h2>
+            <h4 id="modal-summary">Summary</h4>
+            <div id="modal-detail">
+				<div class="detail-group">...</div>
+			</div>
+        </div>
+    </div>
+
+	<script src="data.js"></script>
+	<script src="modal/modal.js"></script>
+	<script src="tree/tree.js"></script>
+</body>
+</html>
